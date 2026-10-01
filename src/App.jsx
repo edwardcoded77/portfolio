@@ -1,3 +1,63 @@
+
+import Fortune from  "./Fortune"
+import Header from "./Header"
+import Footer from "./Footer"
+import AboutMe from './AboutMe.jsx'
+import GymLink from "./GymLink.jsx"
+import GitHubLink from "./GitHubLink.jsx"
+import JobTitle from "./JobTitle.jsx"
+import Education from "./Education.jsx"
+import ProjectCount from "./ProjectCount.jsx"
+import "./App.css"
+import DataPlaylistPortfolioCard from "./DataPlaylistPortfolioCard.jsx"
+ 
+
+function App() {
+  return (
+    <div className="container">
+      <Header />
+       <h1>About Me</h1>
+      <AboutMe/>
+      <GymLink />
+      <GitHubLink/>
+      <Fortune />
+      <JobTitle />
+      <Education/>
+      <ProjectCount/>
+      <DataPlaylistPortfolioCard/>
+      <Footer/>
+    </div>
+  )
+}
+
+export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import { useState } from "react"
 
 // function Cat() {
@@ -38,68 +98,3 @@
 //   }
 
 
-
-
-
-function randomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
-
-function Fortune() {
-  let fortunes = [
-    "Read the whole error before you change a line.",
-    "Run it after every small change.",
-    "The bug is in the last thing you touched."
-  ]
-
-  let advice = ["Take a deep breath", "Check the console", "Make one change at a time"]
-  let index = randomNumber(0, fortunes.length -1 )
-  let indexAdvice = randomNumber(0, advice.length - 1 )
-
-   return (
-      <div>
-          <p>{fortunes[index]}</p>
-          <p>{advice[indexAdvice]}</p>
-      </div>
-
-   )
-
-
-}
-
-
-import Header from "./Header"
-
-
-function JobTitle() {
-  return <h2>Pokémon Trainer</h2>
-}
-
-function AboutMe(){
-return <p>I travel across the land, searching far and wide to catch 'em all! </p>
-}
-
-
-function Education(){
-return <p> Graduated from Pallet Town Pokémon Training Academy(1996) </p>
-}
-
-function Footer() {
-  return <p>&copy; {new Date().getFullYear()} Ash Ketchum</p>
-}
-
-function App() {
-  return (
-    <div className="container">
-      <Header />
-      <Fortune />
-      <JobTitle />
-      <Fortune/>
-      <AboutMe/>
-      <Education/>
-      <Footer/>
-    </div>
-  )
-}
-
-export default App
