@@ -1,3 +1,45 @@
+# My Portfolio
+
+A React site that shows the projects I built in Level 2.
+
+
+
+## Components
+
+| Component | What it shows | Where its values come from |
+| --- | --- | --- |
+| `Header` | my name and a line about me | typed into the JSX |
+| `Fortune` | a random fortune | a list and `randomNumber` |
+| `Footer` | &copy; and the current year | the year the page is opened |
+| `DataPlaylistPortfolioCard` | one project: Data Playlist, | A playlist page that loads its songs from my own data API |
+|  `GreetingCardGeneratorPortfolioCard` |  Greeting Card Generator | An interactive web application that turns user input into a personalized greeting card.
+
+## What I'm adding next
+
+-
+
+## Built with
+
+React, Vite, Bun, and Pico CSS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
