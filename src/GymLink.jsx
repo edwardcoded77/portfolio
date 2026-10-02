@@ -3,7 +3,7 @@ function GymLink() {
   let label = "Open it"
 return (
     <div >
-      <h1>Pallet Town Gym</h1>
+      <h2>Pallet Town Gym</h2>
       <a href={url}>{label}</a>
     </div>)
     }

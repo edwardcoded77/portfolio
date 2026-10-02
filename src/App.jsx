@@ -1,4 +1,4 @@
-
+import "./App.css"
 import Fortune from  "./Fortune"
 import Header from "./Header"
 import Footer from "./Footer"
@@ -8,15 +8,21 @@ import GitHubLink from "./GitHubLink.jsx"
 import JobTitle from "./JobTitle.jsx"
 import Education from "./Education.jsx"
 import ProjectCount from "./ProjectCount.jsx"
-import "./App.css"
 import DataPlaylistPortfolioCard from "./DataPlaylistPortfolioCard.jsx"
- 
+import GreetingCardGeneratorPortfolioCard from "./GreetingCardGeneratorPortfolioCard.jsx"
+import CapstonePortfolioCard from "./CapstonePortfolioCard.jsx"
+import Hero from "./Hero.jsx"
+
+
+
+
 
 function App() {
   return (
     <div className="container">
       <Header />
-       <h1>About Me</h1>
+      <Hero/>
+       <h2>About Me</h2>
       <AboutMe/>
       <GymLink />
       <GitHubLink/>
@@ -25,6 +31,9 @@ function App() {
       <Education/>
       <ProjectCount/>
       <DataPlaylistPortfolioCard/>
+      <GreetingCardGeneratorPortfolioCard/>
+      <CapstonePortfolioCard/>
+      
       <Footer/>
     </div>
   )

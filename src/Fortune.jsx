@@ -21,7 +21,7 @@ function Fortune() {
 
   return (
     <div className="wisdom">
-      <h1>Trainer's Wisdom</h1>
+      <h2>Trainer's Wisdom</h2>
       <p>{fortunes[index]}</p>
       <p>{advice[index]}</p>
     </div>
