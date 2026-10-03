@@ -4,7 +4,7 @@ function DataPlaylistPortfolioCard() {
   let liveUrl = "https://edwardcoded77.github.io/data-playlist/"
   let repoUrl = "https://github.com/edwardcoded77/data-playlist"
   return (
-    <article>
+    <article >
       <h2>{name}</h2>
       <p>{description}</p>
       <p>

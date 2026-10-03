@@ -1,5 +1,6 @@
 function Footer() {
-  return <p>&copy; {new Date().getFullYear()} Ash Ketchum</p>
+  const year = new Date().getFullYear()
+  return <p>&copy; {year} Ash Ketchum</p>
 }
 
 

@@ -2,4 +2,31 @@
   margin-top: 40px;
 }
 
- 
+
+.grid {
+  margin-bottom: 1rem;
+  position:relative;
+}
+
+
+
+
+/* hero.css — the hero image at the top of the page. */
+/* .hero {
+  margin-bottom: 1rem;
+  position: relative;
+} */
+
+/* 
+.hero img {
+  display: block;
+  width: 100%;
+} */
+/* 
+.hero h2 {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1rem;
+  margin: 0;
+  color: rgb(168, 160, 160);
+} */

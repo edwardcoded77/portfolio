@@ -4,7 +4,8 @@ function GymLink() {
 return (
     <div >
       <h2>Pallet Town Gym</h2>
-      <a href={url}>{label}</a>
+      <p>Opening hours: Monday–Saturday, 9:00 AM–6:00 PM.</p>
+      {/* <a href={url}>{label}</a> */}
     </div>)
     }
 

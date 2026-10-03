@@ -1,9 +1,4 @@
-// // The fixed part, cut after the ?
-// // https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=400&auto=format&fit=crop&q=60?
+const imageUrl = (width, height) =>
+  "https://images.unsplash.com/photo-1789948731559-5d113d8744b6?w=" + width + "&h=" + height + "&fit=crop&auto=format"
 
-// const imageUrl = (w, h ) => {
-// return "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=" + w + "&h=" + h + "auto=format&fit=crop"
-
-// }
-
-// export default imageUrl
+export default imageUrl

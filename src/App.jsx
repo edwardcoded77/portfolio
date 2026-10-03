@@ -12,6 +12,7 @@ import DataPlaylistPortfolioCard from "./DataPlaylistPortfolioCard.jsx"
 import GreetingCardGeneratorPortfolioCard from "./GreetingCardGeneratorPortfolioCard.jsx"
 import CapstonePortfolioCard from "./CapstonePortfolioCard.jsx"
 import Hero from "./Hero.jsx"
+import Gallery from "./Gallery.jsx"
 
 
 
@@ -21,10 +22,11 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <Hero/>
+       <Hero />
        <h2>About Me</h2>
       <AboutMe/>
       <GymLink />
+       <Gallery/>
       <GitHubLink/>
       <Fortune />
       <JobTitle />
