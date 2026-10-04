@@ -3,7 +3,6 @@
 A React site that shows the projects I built in Level 2.
 
 
-
 ## Components
 
 | Component | What it shows | Where its values come from |
@@ -12,7 +11,11 @@ A React site that shows the projects I built in Level 2.
 | `Fortune` | a random fortune | a list and `randomNumber` |
 | `Footer` | &copy; and the current year | the year the page is opened |
 | `DataPlaylistPortfolioCard` | one project: Data Playlist, | A playlist page that loads its songs from my own data API |
-|  `GreetingCardGeneratorPortfolioCard` |  Greeting Card Generator | An interactive web application that turns user input into a personalized greeting card.
+| `GreetingCardGeneratorPortfolioCard` |  Greeting Card Generator | An interactive web application that turns user input into a personalized greeting card. |
+| `CapstonePortfolioCard` | Global Life Expectancy | An interactive web application that lets users explore life expectancy data across countries. |
+
+
+
 
 ## What I'm adding next
 
@@ -21,24 +24,6 @@ A React site that shows the projects I built in Level 2.
 ## Built with
 
 React, Vite, Bun, and Pico CSS.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # React + Vite
 
