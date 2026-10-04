@@ -1,6 +1,6 @@
 import "./App.css"
 import "./hero.css"
-
+import Contact from "./Contact.jsx"
 import Fortune from  "./Fortune"
 import Header from "./Header"
 import Footer from "./Footer"
@@ -37,6 +37,7 @@ function App() {
       <DataPlaylistPortfolioCard/>
       <GreetingCardGeneratorPortfolioCard/>
       <CapstonePortfolioCard/>
+      <Contact/>
       
       <Footer/>
     </div>
