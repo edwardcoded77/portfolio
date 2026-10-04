@@ -1,4 +1,6 @@
 import "./App.css"
+import "./hero.css"
+
 import Fortune from  "./Fortune"
 import Header from "./Header"
 import Footer from "./Footer"
@@ -25,10 +27,10 @@ function App() {
        <Hero />
        <h2>About Me</h2>
       <AboutMe/>
-      <GymLink />
-       <Gallery/>
-      <GitHubLink/>
-      <Fortune />
+      {/* <GymLink /> */}
+       {/* <Gallery/> */}
+      {/* <GitHubLink/> */}
+      {/* <Fortune /> */}
       <JobTitle />
       <Education/>
       <ProjectCount/>

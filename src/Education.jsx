@@ -1,7 +1,16 @@
 function Education(){
 return (
-<p> Graduated from Pallet Town Pokémon Training Academy (1996) </p>
-)
+    <article id="skills">
+    <div className="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Git</span>
+        <span>SQL</span>
+    </div>
+    </article>
+    )
 }
 
 

@@ -1,17 +1,18 @@
 function ProjectCount() {
   let projects = [
-    "Pokédex",
+    "Data Playlist",
     "Pokémon Storage System",
     "Evolution Research",
     "Research Recommendation"
   ]
 
   return (
-  <p>
-    <h2>Project Count</h2>
-    Professor Oak is working on {projects.length} projects.
-    His first project is {projects[0]}.
-  </p>
+    <article>
+      <h2>Project Count</h2>
+        <p>
+          I've worked on {projects.length} projects so far, starting with {projects[0]}.
+      </p>
+      </article>
 )
 }
 

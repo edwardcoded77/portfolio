@@ -8,7 +8,7 @@ function GreetingCardGeneratorPortfolioCard() {
       <h2>{name}</h2>
       <p>{description}</p>
       <p>
-        <a href={liveUrl}>See it live</a> · <a href={repoUrl}>Read the code</a>
+        <a href={liveUrl} target="_blank" rel="noopener noreferrer">See it live</a> · <a href={repoUrl} target="_blank" rel="noopener noreferrer">Read the code</a>
       </p>
     </article>
   )

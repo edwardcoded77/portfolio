@@ -3,11 +3,70 @@
 }
 
 
-.grid {
-  margin-bottom: 1rem;
-  position:relative;
+body {
+  background: #111827;
+  color: white;
 }
 
+
+.skills span {
+  color: #e2e8f0;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+
+
+.navHeader{
+  display: flex;
+  justify-content: flex-start;
+  gap:10px;
+  flex-wrap: wrap;
+
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  background: rgba(12, 17, 22, .75);
+  border-bottom: 1px solid var(--border);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .skills span {
+  background-color: #f1f5f9;
+  font-weight: 600;
+  color: #1e293b;
+  padding: 8px 16px;
+  border-radius: 10px;
+}  */
+
+
+
+/* .grid {
+  margin-bottom: 1rem;
+  position:relative;
+} */
 
 
 

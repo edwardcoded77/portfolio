@@ -1,13 +1,14 @@
 function AboutMe(){
 return (
-  <article>
+ <article id="about">
   <p>
-      I travel across the land, searching far and wide to catch 'em all! 
-      The Pallet Town Gym is a place where trainers can practice, battle, and improve their skills.
-      
-   </p>
-  </article> 
-   )
+    I'm a web developer focused on building responsive
+    and user-friendly web applications. I enjoy learning new
+    technologies, working on personal projects, and continuously
+    improving my development skills.
+  </p>
+</article>
+)
 }
 
 export default AboutMe

@@ -1,5 +1,5 @@
 function JobTitle() {
-  return <h2>Pokémon Trainer</h2>
+  return <h2>Skills</h2>
 }
 
 
