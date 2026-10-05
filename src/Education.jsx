@@ -2,6 +2,7 @@ function Education(){
 return (
     <article id="skills">
     <div className="skills">
+        <h2>Skills</h2>
         <span>HTML</span>
         <span>CSS</span>
         <span>JavaScript</span>

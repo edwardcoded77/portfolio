@@ -1,5 +1,5 @@
 function JobTitle() {
-  return <h2>Skills</h2>
+  return <h2></h2>
 }
 
 

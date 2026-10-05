@@ -3,11 +3,18 @@
 }
 
 
+
 body {
-  background: #111827;
-  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f5;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
 .skills span {
   color: #e2e8f0;
@@ -15,6 +22,29 @@ body {
   margin-right: 10px;
 }
 
+#about{
+  margin-top: 2rem;
+}
+
+
+#skills{
+  margin-top: 1rem;
+}
+
+
+.card {
+  background: white;
+  padding: 24px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+footer  {
+  color:black;
+
+}
 
 
 .navHeader{
@@ -26,20 +56,41 @@ body {
 }
 
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  backdrop-filter: blur(10px);
-  background: rgba(12, 17, 22, .75);
-  border-bottom: 1px solid var(--border);
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #60a5fa;
+}
+
+
+#projects {
+    scroll-margin-top: 100px;
 }
 
 
 
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  background: rgba(12,17,22,.75);
+  border-bottom: 1px solid var(--border);
+  margin-top: -1rem;
+}
 
 
+#footer p {
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 500;
+}
 
 
 

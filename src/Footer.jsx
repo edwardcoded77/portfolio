@@ -1,6 +1,11 @@
 function Footer() {
   const year = new Date().getFullYear()
-  return <p>&copy; {year} Gbenga</p>
+  
+  return (
+     <footer id="footer">
+    <p>&copy; {year} Gbenga</p>
+    </footer>
+  )
 }
 
 
