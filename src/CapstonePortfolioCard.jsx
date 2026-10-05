@@ -4,7 +4,7 @@ function CapstonePortfolioCard() {
   let liveUrl = "https://edwardcoded77.github.io/capstone/"
   let repoUrl = "https://github.com/edwardcoded77/capstone"
   return (
-    <section id="projects">
+    
       <article>
         <h2>{name}</h2>
         <p>{description}</p>
@@ -12,7 +12,6 @@ function CapstonePortfolioCard() {
           <a href={liveUrl} target="_blank" rel="noopener noreferrer">See it live</a> · <a href={repoUrl} target="_blank" rel="noopener noreferrer">Read the code</a>
         </p>
       </article>
-    </section>
   )
 }
 

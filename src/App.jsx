@@ -25,7 +25,6 @@ function App() {
     <div className="container">
       <Header />
        <Hero />
-       <h2>About Me</h2>
       <AboutMe/>
       {/* <GymLink /> */}
        {/* <Gallery/> */}
@@ -38,7 +37,6 @@ function App() {
       <GreetingCardGeneratorPortfolioCard/>
       <CapstonePortfolioCard/>
       <Contact/>
-      
       <Footer/>
     </div>
   )
