@@ -5,8 +5,9 @@ A React site that shows the projects I built in Level 2.
 
 ## Components
 
-| Component | What it shows | Where its values come from |
-| --- | --- | --- |
+| Component | What it shows | Where its values come from | What it remembers |
+| --- | --- | --- | --- |
+| `Hero` | my hero photo | `heroPhoto`, which calls `imageUrl` | whether the photo is in color |
 | `Header` | my name and a line about me | typed into the JSX |
 | `Fortune` | a random fortune | a list and `randomNumber` |
 | `Footer` | &copy; and the current year | the year the page is opened |
@@ -18,8 +19,10 @@ A React site that shows the projects I built in Level 2.
 
 
 ## What I'm adding next
+- Color and Black and White buttons on my hero
+- a New Fortune button
+- a Like button on every card
 
--
 
 ## Built with
 
