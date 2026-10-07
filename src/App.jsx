@@ -26,10 +26,6 @@ function App() {
       <Header />
        <Hero />
       <AboutMe/>
-      {/* <GymLink /> */}
-       {/* <Gallery/> */}
-      {/* <GitHubLink/> */}
-      {/* <Fortune /> */}
       <JobTitle />
       <Education/>
       <ProjectCount/>
@@ -68,5 +64,8 @@ export default App
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 4b96160 (changes made)
