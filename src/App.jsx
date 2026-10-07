@@ -63,9 +63,3 @@ export default App
 
 
 
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 4b96160 (changes made)
