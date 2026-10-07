@@ -56,7 +56,7 @@
   background-color: #4f46e5;
 }
 
-
+/* Hero heading and paragraph */
 
 .hero-text p {
   font-size: 1.2rem;
@@ -71,6 +71,8 @@
   margin-bottom: 1rem;
 }
 
+
+/* Hero buttons  */
 .Btn-click {
   display: flex;
   justify-content: center;
