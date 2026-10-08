@@ -32,6 +32,7 @@ function App() {
       <DataPlaylistPortfolioCard/>
       <GreetingCardGeneratorPortfolioCard/>
       <CapstonePortfolioCard/>
+      <Fortune/>
       <Contact/>
       <Footer/>
     </div>
