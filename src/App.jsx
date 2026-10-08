@@ -15,6 +15,9 @@ import GreetingCardGeneratorPortfolioCard from "./GreetingCardGeneratorPortfolio
 import CapstonePortfolioCard from "./CapstonePortfolioCard.jsx"
 import Hero from "./Hero.jsx"
 import Gallery from "./Gallery.jsx"
+import ClickLabPortfolioCard from "./ClickLabPortfolioCard.jsx"
+
+
 
 
 
@@ -32,6 +35,7 @@ function App() {
       <DataPlaylistPortfolioCard/>
       <GreetingCardGeneratorPortfolioCard/>
       <CapstonePortfolioCard/>
+      <ClickLabPortfolioCard/>
       <Fortune/>
       <Contact/>
       <Footer/>
