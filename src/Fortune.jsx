@@ -46,10 +46,10 @@ function toggleBoth() {
     </div>
       </article>
       <div className="fortBtn">
-      <button onClick={newFortune}>New Fortune</button>
-      <button onClick={toggleBoth}>
-        {showFortune ? "Show Advice" : "Show Fortune"} 
-        </button>
+          <button onClick={newFortune}>New Fortune</button>
+          <button onClick={toggleBoth}>
+            {showFortune ? "Show Advice" : "Show Fortune"} 
+            </button>
      </div>
   </div>
   )
