@@ -54,7 +54,6 @@ const prevBtn = () => {
     }
  }
 
-
 const NextBtn = () => {
   if (index < imageIdList.length - 1){
      setIndex(index + 1) 
