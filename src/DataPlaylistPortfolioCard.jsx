@@ -8,8 +8,8 @@ function DataPlaylistPortfolioCard() {
         <article >
           <h2>{name}</h2>
           <p>{description}</p>
-          <p>
-            <a href={liveUrl} target="_blank" rel="noopener noreferrer">See it live</a> · <a href={repoUrl} target="_blank" rel="noopener noreferrer">Read the code</a>
+          <p className="dataLink">
+            <a href={liveUrl} target="_blank" rel="noopener noreferrer">See it live</a> ·  <a href={repoUrl} target="_blank" rel="noopener noreferrer">Read the code</a>
           </p>
         </article>
     </section>

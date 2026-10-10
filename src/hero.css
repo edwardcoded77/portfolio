@@ -13,6 +13,17 @@
   object-fit: cover;
 }
 
+
+.photo-alt {
+ text-align: center;
+ color:rgb(24, 23, 23);
+ font-size: 1rem;
+font-weight: 600;
+
+}
+
+
+
 /* Create transparent dark overlay */
 .hero::after {
   content: "";
@@ -75,9 +86,9 @@
 /* Hero buttons  */
 .Btn-click {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   margin-top: 15px;
 }
 
