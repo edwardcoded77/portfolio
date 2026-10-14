@@ -5,7 +5,7 @@ function DataPlaylistPortfolioCard() {
   let repoUrl = "https://github.com/edwardcoded77/data-playlist"
   return (
      <section id="projects">
-        <article >
+        <article className="card">
           <h2>{name}</h2>
           <p>{description}</p>
           <p className="dataLink">

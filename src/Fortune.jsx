@@ -38,7 +38,7 @@ function toggleBoth() {
 
   return (
   <div>
-      <article>
+      <article className='card'>
      <div className="wisdom">
         <h2>Daily Fortune</h2>
        {/* <p>{fortunes[index]} {advice[index]}</p> */}

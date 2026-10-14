@@ -2,13 +2,14 @@ import { useState } from 'react'
 
 
 
-function ClickLabPortfolioCard() {
+function ClickLabPortfolioCard(project) {
 const [likes, setLikes] = useState(0)
 
-  let name = "Click-lab Quiz"
+  let name = "Click Lab"
   let description = "An interactive FIFA World Cup quiz with scoring and replay."
   let liveUrl = "https://edwardcoded77.github.io/click-lab/"
   let repoUrl = "https://github.com/edwardcoded77/click-lab"
+
 
 
 
@@ -29,7 +30,7 @@ const resetLikes = () => {
 
 
   return (
-    <article>
+    <article className="card">
       <h2>{name}</h2>
       <p>{description}</p>
       <p>
