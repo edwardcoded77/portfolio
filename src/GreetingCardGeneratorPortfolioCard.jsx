@@ -4,7 +4,7 @@ function GreetingCardGeneratorPortfolioCard() {
   let liveUrl = "https://edwardcoded77.github.io/greeting-card-generator/"
   let repoUrl = "https://github.com/edwardcoded77/greeting-card-generator"
   return (
-    <article>
+    <article className="card">
       <h2>{name}</h2>
       <p>{description}</p>
       <p>
