@@ -35,7 +35,7 @@ const resetLikes = () => {
       <p>
         <a href={liveUrl} target="_blank" rel="noopener noreferrer">See it live</a> · <a href={repoUrl} target="_blank" rel="noopener noreferrer">Read the code</a>
       </p>
-      <button onClick={addLike}>Like {likes}</button> 
+      <button onClick={addLike}>Like ({likes}) </button> 
          &nbsp;  &nbsp;
        <button onClick={ removeLike}>Unlike</button>
         &nbsp;  &nbsp;
