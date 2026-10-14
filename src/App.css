@@ -29,7 +29,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   height: 250px;
   box-sizing: border-box;
-  background-color: #252538;
+  background-color: rgba(12,17,22,.75);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -133,7 +133,7 @@ header {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
- background-color: #6366f1;
+ /* background-color: #6366f1; */
   color: white;
   font-size: 16px;
   cursor: pointer;
