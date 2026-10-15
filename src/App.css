@@ -27,7 +27,8 @@ body {
   border: 1px solid #8da04b;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  height: 250px;
+  min-height: 250px;
+  height: auto;
   box-sizing: border-box;
   background-color: rgba(12,17,22,.75);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -37,15 +38,22 @@ body {
   margin-top: 0;
 }
 
+
+.card button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
 /* Hover effect */
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
-
-
-
-
 
 
 .skills span {
@@ -145,6 +153,22 @@ header {
 
 
 
+.clickBtn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+.clickBtn button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 
 

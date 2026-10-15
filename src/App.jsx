@@ -10,13 +10,14 @@ import GitHubLink from "./GitHubLink.jsx"
 import JobTitle from "./JobTitle.jsx"
 import Education from "./Education.jsx"
 import ProjectCount from "./ProjectCount.jsx"
-import DataPlaylistPortfolioCard from "./DataPlaylistPortfolioCard.jsx"
-import GreetingCardGeneratorPortfolioCard from "./GreetingCardGeneratorPortfolioCard.jsx"
-import CapstonePortfolioCard from "./CapstonePortfolioCard.jsx"
+// import DataPlaylistPortfolioCard from "./DataPlaylistPortfolioCard.jsx"
+// import GreetingCardGeneratorPortfolioCard from "./GreetingCardGeneratorPortfolioCard.jsx"
+// import CapstonePortfolioCard from "./CapstonePortfolioCard.jsx"
 import Hero from "./Hero.jsx"
 import Gallery from "./Gallery.jsx"
-import ClickLabPortfolioCard from "./ClickLabPortfolioCard.jsx"
-
+// import ClickLabPortfolioCard from "./ClickLabPortfolioCard.jsx"
+import ProjectCard from './ProjectCard.jsx'
+import projects from './projects.js'
 
 
 
@@ -32,10 +33,14 @@ function App() {
       <JobTitle />
       <Education/>
       <ProjectCount/>
-      <DataPlaylistPortfolioCard/>
-      <GreetingCardGeneratorPortfolioCard/>
-      <CapstonePortfolioCard/>
-      <ClickLabPortfolioCard/>
+      <ProjectCard project={projects[0]} />
+      <ProjectCard project={projects[1]} />
+      <ProjectCard project={projects[2]} />
+      <ProjectCard project={projects[3]} />
+      {/* <DataPlaylistPortfolioCard/> */}
+      {/* <GreetingCardGeneratorPortfolioCard/> */}
+      {/* <CapstonePortfolioCard/> */}
+      {/* <ClickLabPortfolioCard/> */}
       <Fortune/>
       <Contact/>
       <Footer/>
