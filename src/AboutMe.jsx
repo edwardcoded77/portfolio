@@ -1,6 +1,6 @@
 function AboutMe(){
 return (
- <article id="about">
+ <article className="card">
      <h2>About Me</h2> 
    <p>
     I'm a web developer focused on building responsive
