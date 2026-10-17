@@ -13,6 +13,8 @@ A React site that shows the projects I built in Level 2.
 | `DataPlaylistPortfolioCard` | one project: Data Playlist, | A playlist page that loads its songs from my own data API |
 | `GreetingCardGeneratorPortfolioCard` |  Greeting Card Generator | An interactive web application that turns user input into a personalized greeting card. |
 | `CapstonePortfolioCard` | Global Life Expectancy | An interactive web application that lets users explore life expectancy data across countries. |
+| `Hero` | Displays the hero section with personal photos | `heroPhoto`, which uses `imageUrl` | Which photo is displayed and whether it is shown in color |
+| `ProjectCard` | Displays an individual project's name, description, details, and two links | project, supplied through projects.js and App | The number of likes and whether additional project details are displayed |
 
 
 
