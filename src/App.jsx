@@ -14,7 +14,7 @@ import projects from './projects.js'
 
 
 
-function mapProjects() {
+function renderProjects() {
   return projects.map((project, index) => (
     <ProjectCard key={index} project={project} />
   ))
@@ -30,7 +30,7 @@ function App() {
       <JobTitle />
       <Education/>
       <ProjectCount/>
-     {mapProjects()}
+     {renderProjects()}
       <Fortune/>
       <Contact/>
       <Footer/>
