@@ -15,10 +15,10 @@
 
 
 .photo-alt {
- text-align: center;
- color:rgb(24, 23, 23);
- font-size: 1rem;
-font-weight: 600;
+  text-align: center;
+  color:rgb(24, 23, 23);
+  font-size: 1rem;
+  font-weight: 600;
 
 }
 
@@ -51,7 +51,6 @@ font-weight: 600;
 
 .projects-button {
   display: inline-block;
-  /* background-color: #6366f1; */
   color: white;
   text-decoration: none;
   padding: 8px 9px;
@@ -68,7 +67,6 @@ font-weight: 600;
 }
 
 /* Hero heading and paragraph */
-
 .hero-text p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
