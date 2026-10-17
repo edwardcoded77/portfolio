@@ -21,7 +21,7 @@ A React site that shows the projects I built in Level 2.
 
 ## What I'm adding next
 
--
+- - Update `App` to render each project using `.map()` and assign a unique `key` to every `ProjectCard`.
 
 ## Built with
 
