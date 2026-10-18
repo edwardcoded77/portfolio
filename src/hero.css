@@ -13,6 +13,17 @@
   object-fit: cover;
 }
 
+
+.photo-alt {
+  text-align: center;
+  color:rgb(24, 23, 23);
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+
+
 /* Create transparent dark overlay */
 .hero::after {
   content: "";
@@ -40,7 +51,6 @@
 
 .projects-button {
   display: inline-block;
-  background-color: #6366f1;
   color: white;
   text-decoration: none;
   padding: 8px 9px;
@@ -56,18 +66,12 @@
   background-color: #4f46e5;
 }
 
-
-
+/* Hero heading and paragraph */
 .hero-text p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   color: white;
 }
-
-
-
-
-
 
 
 
@@ -77,17 +81,24 @@
 }
 
 
-/* .hero-text button {
-  background-color: #f9f9fa;
-  color: rgb(22, 21, 21);
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 4px 8px;
-  
-} */
+/* Hero buttons  */
+.Btn-click {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
 
-/* .hero-text button:hover {
-  background-color: #a5a4af;
-} */
+.Btn-click button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Btn-click button:hover {
+   background-color: #4f46e5;
+}

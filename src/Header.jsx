@@ -1,7 +1,8 @@
 function Header() {
   return (
+    
     <header>
-            <h1>Gbenga Olagunju</h1>
+            <h1 className="headline">Gbenga Olagunju</h1>
          <nav className="navHeader">
             {/* <a href="#home">Home</a> */}
             {/* <a  href="#about">About</a> */}
