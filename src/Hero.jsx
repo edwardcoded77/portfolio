@@ -5,7 +5,7 @@
 
 // import useState
 import { useState } from 'react'
-
+import photoControls from './PhotoControls'
 
 
 // create function imageURL
@@ -76,10 +76,18 @@ const [src, alt] = heroImg(1000, 500, -1, sat,index)
              </div>
          </div> 
          <div className="Btn-click">
-            <button onClick={prevBtn}>Prev</button>
+
+           <photoControls
+              prevBtn={prevBtn}
+              showColor={showColor}
+              showBW={showBW}
+              NextBtn={NextBtn}
+           
+            />
+            {/* <button onClick={prevBtn}>Prev</button>
             <button onClick={showColor}>Color</button>
             <button onClick={showBW}>B & W</button>
-             <button onClick={NextBtn}>Next</button>
+             <button onClick={NextBtn}>Next</button> */}
 
         </div>
       </> 
