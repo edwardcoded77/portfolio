@@ -1,8 +1,16 @@
+import { useState } from "react"
+
 function DataPlaylistPortfolioCard() {
+  const [likes, setLikes] = useState(0)
   let name = "Data Playlist"
   let description = "A playlist page that loads its songs from my own data API."
   let liveUrl = "https://edwardcoded77.github.io/data-playlist/"
   let repoUrl = "https://github.com/edwardcoded77/data-playlist"
+
+    const addLike = () => {
+    setLikes(likes + 1)
+  }
+
   return (
      <section id="projects">
         <article className="card">
@@ -11,7 +19,10 @@ function DataPlaylistPortfolioCard() {
           <p className="dataLink">
             <a href={liveUrl} target="_blank" rel="noopener noreferrer">See it live</a> ·  <a href={repoUrl} target="_blank" rel="noopener noreferrer">Read the code</a>
           </p>
+           <button onClick={addLike}>Like ({likes})
+        </button>
         </article>
+       
     </section>
   )
 }

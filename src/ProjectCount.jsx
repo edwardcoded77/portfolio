@@ -1,9 +1,10 @@
 function ProjectCount() {
   let projects = [
-    "Data Playlist",
+    "Greeting Card Generator",
     "Pokémon Storage System",
     "Evolution Research",
-    "Research Recommendation"
+    "Research Recommendation",
+    "Club Welcome Page"
   ]
 
   return (
